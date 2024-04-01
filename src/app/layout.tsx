@@ -16,6 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"></link>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
